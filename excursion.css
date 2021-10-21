@@ -23,8 +23,13 @@ a {
     font-size: 16px;
 }
 
-p {
+#comment {
     font-family: Verdana;
     font-size: 21px;
+    color: gray;
+}
+
+#copyright {
+    text-align: right;
     color: gray;
 }
