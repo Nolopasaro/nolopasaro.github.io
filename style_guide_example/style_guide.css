@@ -1,0 +1,55 @@
+header {
+    position: relative;
+    text-align: center;
+    top: 0px;
+}
+
+#colors {
+    border: solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#colors p {
+    color: white;
+    padding: 20px 20px;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#fonts {
+    margin: 20px 0px;
+    border: solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#fonts h3, #fonts p {
+    position: relative;
+    left: 20px;
+    top: 5px;
+}
+
+#times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#textstyles {
+    margin: 20px 0px;
+    border: solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
