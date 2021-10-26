@@ -1,8 +1,8 @@
 .grid {
   display: grid;
   width: 100%;
-  height: 1850px;
-  grid-template: repeat(20, 1fr) / repeat(10, 1fr);
+  height: auto;
+  grid-template: repeat(15, 150px) / repeat(10, 1fr);
   border: black 1px solid;
   text-align: center;
 }
