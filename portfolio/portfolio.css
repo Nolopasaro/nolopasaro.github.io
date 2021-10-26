@@ -1,7 +1,56 @@
-.name {
-  float: left;
+.grid {
+  display: grid;
+  width: 100%;
+  height: 1850px;
+  grid-template: repeat(20, 1fr) / repeat(10, 1fr);
+  border: black 1px solid;
+  text-align: center;
 }
 
-.nav {
-  float: right;
+.box {
+  border: black 1px solid;
+}
+
+.name {
+  grid-area: 1 / 4 / 1 / 8;
+  font-size: 40px;
+}
+
+.about {
+  grid-area: 2 / 2 / 7 / 8;
+  font-size: 30px;
+}
+
+.pfp {
+  grid-area: 2 / 8 / 7 / 10;
+}
+
+.skills {
+  grid-area: 7 / 4 / 7 / 8;
+  font-size: 40px;
+}
+
+.skillicons {
+  grid-area: 8 / 2 / 10 / 10;
+  font-size: 30px;
+}
+
+.projects {
+  grid-area: 10 / 4 / 10 / 8;
+  font-size: 40px;
+}
+
+.projectlist {
+  grid-area: 11 / 2 / 13 / 10;
+  font-size: 30px;
+}
+
+.contact {
+  grid-area: 13 / 4 / 13 / 8;
+  font-size: 40px;
+}
+
+.contactinfo {
+  grid-area: 14 / 2 / 16 / 10;
+  font-size: 30px;
 }
